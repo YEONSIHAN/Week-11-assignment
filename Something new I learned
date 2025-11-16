@@ -1,0 +1,23 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+int main()
+{
+	vector<int> v{ 10, 20, 30 };//vector라는 저장소에 int로 배열에 숫자 넣겠다.
+	v.push_back(40);// v뒤에 40을 추가로 넣겠다.
+
+	for (int x : v)// int x에 v에 저장소에 저장되어있는걸 하나씩 옮김.
+		cout << x << " ";
+}
+
+#include <map>
+#include <iostream>
+using namespace std;
+
+int main() {
+    map<string, int> age;// 문자열을 키로 설정 후 값을 정수로 저장
+    age["Kim"] = 21;// kim에 21을 넣고
+    age["Lee"] = 25;// lee에 25를 저장
+
+    cout << age["Kim"];// 출력 값 21 나옴
+}
