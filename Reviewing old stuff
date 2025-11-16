@@ -1,0 +1,70 @@
+//#include <iostream>
+//#include <vector>
+//using namespace std;
+//
+//int main()
+//{
+//    vector<int> vect;
+//    
+//    for(int nCount=0; nCount < 6; nCount++)
+//		vect.push_back(2*nCount);
+//
+//    vector<int>::iterator it;
+//
+//	it = vect.begin();
+//
+//    while(it != vect.end())
+//    {
+//        cout << *it << endl;
+//        it++;
+//    }
+//
+//    cout << endl;
+//	return 0;
+//}
+
+//#include <iostream>
+//#include <set>
+//using namespace std;
+//
+//int main() {
+//	set<int> myset;
+//	myset.insert(7);
+//	myset.insert(-1);
+//	myset.insert(7);
+//
+//	set<int>::iterator it;
+//
+//	it = myset.begin();
+//
+//	while (it != myset.end())
+//	{
+//		cout << *it << "\t";
+//		it++;
+//	}
+//	cout << endl;
+//}
+
+//#include <iostream>
+//#include <map>
+//#include <string>
+//using namespace std;
+//
+//int main() {
+//	map<string, string> mymap;
+//	
+//	mymap.insert(make_pair("4", "apple"));
+//	mymap.insert(make_pair("2", "orange"));
+//	mymap.insert(make_pair("1", "banana"));
+//	mymap.insert(make_pair("3", "mango"));
+//
+//	map<string, string>::iterator it;
+//	it = mymap.begin();
+//
+//	while (it != mymap.end())
+//	{
+//		cout << it->first << "," << it->second << " ";
+//		it++;
+//	}
+//	cout << endl;
+//}
